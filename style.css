@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    li,h1,ul{
+        display: inline;
+    }
+    ul{
+        margin-left: 70%;
+    }
+    li{
+        color: gray;
+        cursor: pointer;
+    }
+    li:hover{
+        color: white;
+    }
+}
+input{
+    margin: 50px;
+    padding: 15px;
+}
+.search{
+    text-align: center;
+
+}
+.box{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.contact{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
